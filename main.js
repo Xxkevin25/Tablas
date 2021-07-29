@@ -1,4 +1,4 @@
-//function TABS() {
+function TABS() {
 
     var num = prompt('Numero a multiplicar');
     var limit = prompt('Limite');
@@ -91,4 +91,4 @@
         default:
             document.write('<h1 style="color: red;"><u>Not found</u></h1>');
     }*/
-//}
+}
