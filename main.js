@@ -1,5 +1,14 @@
-function TABS() {
-    let tab = parseInt(prompt("ESCRIBE EL NUMERO DE LA TABLA :D"));
+//function TABS() {
+
+    var num = prompt('Numero a multiplicar');
+    var limit = prompt('Limite');
+    document.write('Tabla de multiplicar del ' + num + '<br>')
+    for(var z = 1; z <= limit; z++){
+       var result = z*parseInt(num)
+        document.write(z + ' x ' + num + ' = ' + result + '<br>')
+    }
+
+    /*let tab = parseInt(prompt("ESCRIBE EL NUMERO DE LA TABLA :D"));
     switch (tab) {
         case 2:
             let z = 0;
@@ -81,5 +90,5 @@ function TABS() {
 
         default:
             document.write('<h1 style="color: red;"><u>Not found</u></h1>');
-    }
-}
+    }*/
+//}
